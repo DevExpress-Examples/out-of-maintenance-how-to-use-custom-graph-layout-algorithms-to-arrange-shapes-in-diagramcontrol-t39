@@ -1,0 +1,32 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "DXDiagram.CustomLayoutAlgorithms", "DXDiagram.CustomLayoutAlgorithms\DXDiagram.CustomLayoutAlgorithms.vbproj", "{0A6949AB-8A1E-4704-91F1-02698564D9FD}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "MsaglHelpers", "MsaglHelpers\MsaglHelpers.vbproj", "{D9B4D595-1D8E-4530-B059-A7A916024A06}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		DebugTest|Any CPU = DebugTest|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0A6949AB-8A1E-4704-91F1-02698564D9FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A6949AB-8A1E-4704-91F1-02698564D9FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A6949AB-8A1E-4704-91F1-02698564D9FD}.DebugTest|Any CPU.ActiveCfg = DebugTest|Any CPU
+		{0A6949AB-8A1E-4704-91F1-02698564D9FD}.DebugTest|Any CPU.Build.0 = DebugTest|Any CPU
+		{0A6949AB-8A1E-4704-91F1-02698564D9FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A6949AB-8A1E-4704-91F1-02698564D9FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9B4D595-1D8E-4530-B059-A7A916024A06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9B4D595-1D8E-4530-B059-A7A916024A06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9B4D595-1D8E-4530-B059-A7A916024A06}.DebugTest|Any CPU.ActiveCfg = DebugTest|Any CPU
+		{D9B4D595-1D8E-4530-B059-A7A916024A06}.DebugTest|Any CPU.Build.0 = DebugTest|Any CPU
+		{D9B4D595-1D8E-4530-B059-A7A916024A06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9B4D595-1D8E-4530-B059-A7A916024A06}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

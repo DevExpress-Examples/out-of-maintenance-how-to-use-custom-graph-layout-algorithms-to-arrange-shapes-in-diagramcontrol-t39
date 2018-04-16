@@ -1,0 +1,40 @@
+﻿<dxr:DXRibbonWindow x:Class="DXDiagram.CustomLayoutAlgorithms.MainWindow" mc:Ignorable="d" Title="MainWindow" Height="900" Width="1200" 
+    xmlns:dxr="http://schemas.devexpress.com/winfx/2008/xaml/ribbon" 
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+    xmlns:dxb="http://schemas.devexpress.com/winfx/2008/xaml/bars" 
+    xmlns:local="clr-namespace:DXDiagram.CustomLayoutAlgorithms" 
+    xmlns:dxdiag="clr-namespace:DevExpress.Xpf.Diagram;assembly=DevExpress.Xpf.Diagram.v16.1">
+    <DockPanel>
+        <dxr:RibbonControl DockPanel.Dock="Top">
+            <dxr:RibbonPageCategory Caption="MSAGL">
+                <dxr:RibbonPage Caption="Layout Actions">
+                    <dxr:RibbonPageGroup Caption="Sugiyama Layout">
+                        <dxb:BarButtonItem Content="Load sample file" ItemClick="LoadSugiyama" />
+                        <dxb:BarButtonItem Content="Apply layout" ItemClick="ApplySugiyama" />
+                    </dxr:RibbonPageGroup>
+                    <dxr:RibbonPageGroup Caption="Disconnected Graphs">
+                        <dxb:BarButtonItem Content="Load sample file" ItemClick="LoadDisconnectedGraphs" />
+                        <dxb:BarButtonItem Content="Apply layout" ItemClick="ApplyDisconnectedGraphs" />
+                    </dxr:RibbonPageGroup>
+                    <dxr:RibbonPageGroup Caption="Phylo Tree">
+                        <dxb:BarButtonItem Content="Load sample file" ItemClick="LoadPhyloTree" />
+                        <dxb:BarButtonItem Content="Apply layout" ItemClick="ApplyPhyloTree" />
+                    </dxr:RibbonPageGroup>
+                    <dxr:RibbonPageGroup Caption="Ranking Layout">
+                        <dxb:BarButtonItem Content="Load sample file" ItemClick="LoadRanking" />
+                        <dxb:BarButtonItem Content="Apply layout" ItemClick="ApplyRanking" />
+                    </dxr:RibbonPageGroup>
+                    <dxr:RibbonPageGroup Caption="MDS Layout">
+                        <dxb:BarButtonItem Content="Load sample file" ItemClick="LoadMDS" />
+                        <dxb:BarButtonItem Content="Apply layout" ItemClick="ApplyMDS" />
+                    </dxr:RibbonPageGroup>
+                </dxr:RibbonPage>
+            </dxr:RibbonPageCategory>
+        </dxr:RibbonControl>
+        <dxdiag:DiagramDesignerControl x:Name="diagramControl" dxb:MergingProperties.ElementMergingBehavior="InternalWithExternal" FitToDrawingMargin="90"
+                                       ToolboxVisibility="Compact" SelectedStencils="BasicShapes,ArrowShapes" />
+    </DockPanel>
+</dxr:DXRibbonWindow>

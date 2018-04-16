@@ -1,0 +1,26 @@
+﻿<Window x:Class="DXDiagram.CustomLayoutAlgorithms.LayoutExampleWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DXDiagram.CustomLayoutAlgorithms"
+        xmlns:dxdiag="clr-namespace:DevExpress.Xpf.Diagram;assembly=DevExpress.Xpf.Diagram.v16.1"
+        xmlns:dxdiagcore="clr-namespace:DevExpress.Diagram.Core;assembly=DevExpress.Diagram.v16.1.Core"
+        mc:Ignorable="d"
+        Title="LayoutExampleWindow" Height="900" Width="1200">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Button x:Name="relayoutButton" Content="Relayout diagram items" Click="RelayoutDiagramItem" Command="" Grid.Row="0"/>
+        <dxdiag:DiagramDesignerControl x:Name="diagramControl"
+                                       Grid.Row="1"
+                                       DockPanel.Dock="Right"
+                                       PageSize="1100,800"
+                                       FitToDrawingMargin="90"
+                                       ToolboxVisibility="Compact"
+                                       ZoomFactor="0.73"
+                                       SelectedStencils="BasicShapes,ArrowShapes"/>
+    </Grid>
+</Window>
