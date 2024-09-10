@@ -6,7 +6,7 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
     xmlns:dxb="http://schemas.devexpress.com/winfx/2008/xaml/bars" 
     xmlns:local="clr-namespace:DXDiagram.CustomLayoutAlgorithms" 
-    xmlns:dxdiag="clr-namespace:DevExpress.Xpf.Diagram;assembly=DevExpress.Xpf.Diagram.v16.1">
+    xmlns:dxdiag="clr-namespace:DevExpress.Xpf.Diagram;assembly=DevExpress.Xpf.Diagram.v24.2">
     <DockPanel>
         <dxr:RibbonControl DockPanel.Dock="Top">
             <dxr:RibbonPageCategory Caption="MSAGL">
